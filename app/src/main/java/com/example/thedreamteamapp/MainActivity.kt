@@ -14,6 +14,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.thedreamteamapp.ui.screens.MainScreen
 import com.example.thedreamteamapp.ui.screens.ApuradoScreen
+import com.example.thedreamteamapp.ui.screens.AsiloScreen
 import com.example.thedreamteamapp.ui.theme.TheDreamTeamAppTheme
 
 class MainActivity : ComponentActivity() {
@@ -57,7 +58,7 @@ fun AppNavigation() {
 //            AsiScreen(navController = navController)
         }
         composable("AsiloScreen") {
-//            AsiloScreen(navController= navController)
+            AsiloScreen(navController= navController)
         }
     }
 }
