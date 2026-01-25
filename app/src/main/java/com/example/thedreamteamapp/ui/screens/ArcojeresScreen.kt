@@ -54,7 +54,7 @@ fun ArcojeresScreen(navController: NavController) {
         Spacer(modifier = Modifier.height(10.dp))
 
         Text(
-            text = "I’m Veronica Arcojeres, a student from the University of Cabuyao currently taking Bachelor of Science in Information Technology, and part of The Dream Team App Developer.",
+            text = "Hi! I’m Veronica Arcojeres, a BS Information Technology student at the University of Cabuyao and a member of The Dream Team App Developer.",
             style = MaterialTheme.typography.bodyMedium,
             textAlign = TextAlign.Center,
             modifier = Modifier
