@@ -26,7 +26,7 @@ import androidx.navigation.NavController
 import com.example.thedreamteamapp.R
 
 @Composable
-fun AsiloScreen(navController: NavController) {
+fun AnilasScreen(navController: NavController) {
     Column(
         modifier = Modifier
             .fillMaxSize()
