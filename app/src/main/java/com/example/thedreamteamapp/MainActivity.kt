@@ -12,9 +12,12 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.example.thedreamteamapp.ui.screens.AnilasScreen
 import com.example.thedreamteamapp.ui.screens.MainScreen
 import com.example.thedreamteamapp.ui.screens.ApuradoScreen
 import com.example.thedreamteamapp.ui.screens.ArcojeresScreen
+import com.example.thedreamteamapp.ui.screens.AsiScreen
+import com.example.thedreamteamapp.ui.screens.AsiloScreen
 import com.example.thedreamteamapp.ui.theme.TheDreamTeamAppTheme
 
 class MainActivity : ComponentActivity() {
@@ -46,7 +49,7 @@ fun AppNavigation() {
         }
 
         composable("AnilasScreen") {
-            // AnilasScreen(navController = navController) remove nalang ng comment pag may composable na screen
+            AnilasScreen(navController = navController)
         }
         composable("ApuradoScreen") {
             ApuradoScreen(navController = navController)
@@ -55,10 +58,10 @@ fun AppNavigation() {
             ArcojeresScreen(navController = navController)
         }
         composable("AsiScreen") {
-//            AsiScreen(navController = navController)
+              AsiScreen(navController = navController)
         }
         composable("AsiloScreen") {
-//            AsiloScreen(navController= navController)
+            AsiloScreen(navController= navController)
         }
     }
 }
